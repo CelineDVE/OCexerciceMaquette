@@ -1,7 +1,7 @@
 /* Corps de la page */
 
 #bloc_page {
-	width: 1120px;
+	width: 1110px;
 	margin: auto;
 	font-family: 'Montserrat', Verdana, sans-serif;
 
@@ -100,9 +100,8 @@ article p, article li {
 
 aside li {
 	list-style-type: none;
-	margin: 10px;
 	border-bottom: 1px #E9EAED solid; /* le gris donné me paraît trop claire */
-	padding-bottom: 10px;
+	padding: 10px;
 }
 
 aside li a {
@@ -118,4 +117,9 @@ aside ul {
 #commentaires span {
 	font-size: .8em;
 	padding: 4px;
+}
+	/* Survol */
+
+aside li:hover {
+	background-color: #FFFFFF
 }
