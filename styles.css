@@ -161,10 +161,14 @@ footer li a {
 
 @media all and (max-device-width: 480px)
 {
-	body {
-	background-color: #000000;
+	#bloc_page {
+        width: auto;
+    }
+
+	nav ul {
+		flex-wrap: wrap;
+		flex-basis: max-content;
 	}
-}
 
 
 
