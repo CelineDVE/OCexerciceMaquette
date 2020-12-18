@@ -3,10 +3,12 @@
 #bloc_page {
 	width: 1200px;
 	margin: auto;
+	font-family: 'Montserrat', Verdana, sans-serif;
+
 }
 
 body {
-	background-color: #E9EAED
+	background-color: #F4F4F4
 }
 
 /* HEADER */
@@ -19,9 +21,56 @@ nav ul{
 	display: flex;
 	justify-content: space-around;
 	list-style-type: none;
-
+	padding: 20px;
 }
+
+nav a{
+	color: white;
+	background-color: #FD5F00;
+	font-weight: 500;
+	padding: 8px 20px;
+	border-radius: 6px;
+	font-size: 1em;
+}
+
+
 /* LIENS */
 a {
 	text-decoration: none;
+}
+
+/* SECTION */
+
+section {
+	display: flex;
+	
+}
+
+#bloc-left {
+	background-color: #ffffff;
+	border: 2px solid #E9EAED;
+	padding: 40px 20px;
+}
+
+#bloc-left h1 {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+article {
+	padding-top: 10px;
+}
+
+article h2 {
+	text-transform: uppercase;
+	font-size: 1em;
+}
+
+article h2 span{
+	font-size: 1.5em;
+}
+
+article p, article li {
+	color: #535c68;
+	text-align: justify;
 }
