@@ -49,7 +49,7 @@ section {
 
 #bloc-left {
 	background-color: #ffffff;
-	border: 2px solid #E9EAED;
+	border: 2px solid #E9EAED; /* le gris donné me paraît trop claire */
 	padding: 40px 20px;
 	flex: 3;
 }
@@ -74,15 +74,15 @@ article h2 span {
 }
 
 article p, article li {
-	color: #535c68; /* couleur à déterminer plus précisément */
+	color: #535c68; /* couleur à déterminer plus précisément, le gris donné est trop claire */
 	text-align: justify;
 }
 
 	/* BLOC DE DROITE */
 
 #bloc_right {
-	border-top: 2px solid #E9EAED;
-	border-bottom: 2px solid #E9EAED;
+	border-top: 2px solid #E9EAED; /* le gris donné me paraît trop claire */
+	border-bottom: 2px solid #E9EAED; /* le gris donné me paraît trop claire */
 	padding: 10px;
 	flex: 1;
 
@@ -101,14 +101,8 @@ article p, article li {
 aside li {
 	list-style-type: none;
 	margin: 10px;
-}
-
-aside li::after {
-	content: "";
-	border-bottom: 1px solid #E9EAED;
-	display: block;
-	width: 100%;
-	padding-top: 10px;
+	border-bottom: 1px #E9EAED solid; /* le gris donné me paraît trop claire */
+	padding-bottom: 10px;
 }
 
 aside li a {
