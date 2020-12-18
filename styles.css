@@ -1,7 +1,7 @@
 /* Corps de la page */
 
 #bloc_page {
-	width: 1200px;
+	width: 1120px;
 	margin: auto;
 	font-family: 'Montserrat', Verdana, sans-serif;
 
@@ -12,19 +12,20 @@ body {
 }
 
 /* HEADER */
-header img{
+
+header img {
 	width: 100%;
 	margin: auto;
 }
 
-nav ul{
+nav ul {
 	display: flex;
 	justify-content: space-around;
 	list-style-type: none;
 	padding: 20px;
 }
 
-nav a{
+nav a {
 	color: white;
 	background-color: #FD5F00;
 	font-weight: 500;
@@ -35,6 +36,7 @@ nav a{
 
 
 /* LIENS */
+
 a {
 	text-decoration: none;
 }
@@ -43,19 +45,20 @@ a {
 
 section {
 	display: flex;
-	
 }
 
 #bloc-left {
 	background-color: #ffffff;
 	border: 2px solid #E9EAED;
 	padding: 40px 20px;
+	flex: 3;
 }
 
 #bloc-left h1 {
 	text-transform: uppercase;
 	text-align: center;
 }
+	/* ARTICLE */
 
 article {
 	padding-top: 10px;
@@ -66,11 +69,59 @@ article h2 {
 	font-size: 1em;
 }
 
-article h2 span{
+article h2 span {
 	font-size: 1.5em;
 }
 
 article p, article li {
-	color: #535c68;
+	color: #535c68; /* couleur à déterminer plus précisément */
 	text-align: justify;
+}
+
+	/* BLOC DE DROITE */
+
+#bloc_right {
+	border-top: 2px solid #E9EAED;
+	border-bottom: 2px solid #E9EAED;
+	padding: 10px;
+	flex: 1;
+
+}
+
+#bloc_right h2 {
+	text-transform: uppercase;
+	font-size: 1em;
+	margin-top: 30px;
+}
+
+#bloc_right h2 span {
+	font-size: 1.5em;
+}
+
+aside li {
+	list-style-type: none;
+	margin: 10px;
+}
+
+aside li::after {
+	content: "";
+	border-bottom: 1px solid #E9EAED;
+	display: block;
+	width: 100%;
+	padding-top: 10px;
+}
+
+aside li a {
+	color: #FD5F00;
+	font-size: .8em;
+}
+
+aside ul {
+	padding-left: 0;
+	margin : 0;
+}
+
+#commentaires span {
+	font-size: .8em;
+	padding: 4px;
 }
