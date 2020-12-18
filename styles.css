@@ -8,7 +8,7 @@
 }
 
 body {
-	background-color: #F4F4F4
+	background-color: #F4F4F4;
 }
 
 /* HEADER */
@@ -140,3 +140,47 @@ footer li {
 footer li a {
 	color: #FD5F00;	
 }
+
+/* RESPONSIVE */
+
+@media all and (max-width: 980px)
+{
+    #bloc_page {
+        width: auto;
+    }
+
+   	section {
+   		display: block;
+   	}
+
+   	#bloc_right {
+   		display: flex;
+   		justify-content: space-around;
+   	}
+}
+
+@media all and (max-device-width: 480px)
+{
+	body {
+	background-color: #000000;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
