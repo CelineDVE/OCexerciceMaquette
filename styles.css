@@ -17,11 +17,13 @@ header img {
 	width: 100%;
 	margin: auto;
 }
-/* NAVIVATION */
+
+/* NAVIGATION */
 
 nav ul {
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
 	list-style-type: none;
 	padding: 20px;
 }
@@ -162,18 +164,25 @@ footer li a {
 {
 	/* MENU */
 
-	nav {
-		display: in;
+	nav ul {
+		margin: 20px;
 	}
 
 	nav a {
 		font-size: 2em;
+		padding: 10px 30px;
+		margin: 100px;
+	}
+
+	nav li {
+		padding: 20px;
+		margin: 5px 10px;
 	}
 
 	/* SECTION */
 
 	article {
-		margin: 0 20px;
+		margin: 0 20px 80px 20px;
 	}
 
 	section h1 {
@@ -182,8 +191,8 @@ footer li a {
 	}
 
 	h2 {
-		margin-block-start: 5em;
-		margin-block-end: 5em;
+		margin-block-start: 4em;
+		margin-block-end: 4em;
 	}
 
 	#bloc_right {
