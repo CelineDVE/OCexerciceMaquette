@@ -17,6 +17,7 @@ header img {
 	width: 100%;
 	margin: auto;
 }
+/* NAVIVATION */
 
 nav ul {
 	display: flex;
@@ -161,16 +162,18 @@ footer li a {
 
 @media all and (max-device-width: 480px)
 {
-	#bloc_page {
-        width: auto;
-    }
-
-	nav ul {
-		flex-wrap: wrap;
-		flex-basis: max-content;
+	section {
+		
 	}
 
+	article {
+		margin: 100px 20px;
+	}
 
+	article p, article h1 {
+		margin: 60px 0;
+	}
+}
 
 
 
