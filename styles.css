@@ -52,7 +52,7 @@ section {
 
 #bloc_left {
 	background-color: #ffffff;
-	border: 2px solid #E9EAED; /* le gris donné me paraît trop claire */
+	border: 1px solid #C0C5D1;
 	padding: 30px 20px;
 	flex: 3;
 }
@@ -68,46 +68,36 @@ article {
 }
 
 article h2 {
-	text-transform: uppercase;
-	font-size: 1em;
-}
-
-article h2 span {
-	font-size: 1.5em;
+	font-variant: small-caps;
 }
 
 article p, article li {
-	color: #535c68; /* couleur à déterminer plus précisément, le gris donné est trop claire */
+	color: #4C5253;
 	text-align: justify;
 }
 
 	/* BLOC DE DROITE */
 
 #bloc_right {
-	border-top: 2px solid #E9EAED; /* le gris donné me paraît trop claire */
-	border-bottom: 2px solid #E9EAED; /* le gris donné me paraît trop claire */
+	border-top: 1px solid #C0C5D1;
+	border-bottom: 1px solid #C0C5D1;
 	padding: 10px;
 	flex: 1;
 }
 
 #bloc_right h2 {
-	text-transform: uppercase;
-	font-size: 1em;
-}
-
-#bloc_right h2 span {
-	font-size: 1.5em;
+	font-variant: small-caps;
 }
 
 aside li {
 	list-style-type: none;
-	border-bottom: 2px #E9EAED solid; /* le gris donné me paraît trop claire */
+	border-bottom: 1px #C0C5D1 solid;
 	padding: 10px;
+	font-size: .8em;
 }
 
 aside li a {
 	color: #FD5F00;
-	font-size: .8em;
 }
 
 aside ul {
@@ -115,10 +105,6 @@ aside ul {
 	margin : 0;
 }
 
-#commentaires span {
-	font-size: .8em;
-	padding: 4px;
-}
 	/* Survol */
 
 aside li:hover {
@@ -169,9 +155,9 @@ footer li a {
 	}
 
 	nav a {
-		font-size: 2em;
+		font-size: 2.5em;
 		padding: 10px 30px;
-		margin: 100px;
+		margin: 85px;
 	}
 
 	nav li {
